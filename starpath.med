@@ -19,14 +19,14 @@
     <extSync>0</extSync>
     <bigtimeVisible>0</bigtimeVisible>
     <transportVisible>0</transportVisible>
-    <geometryMain x="2086" y="11" w="1633" h="1039"></geometryMain>
+    <geometryMain x="2091" y="11" w="1633" h="1039"></geometryMain>
     <geometryTransport x="0" y="25" w="100" h="30"></geometryTransport>
     <markerVisible>0</markerVisible>
     <mixer1Visible>1</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
     <Mixer>
       <name>Mixer A</name>
-      <geometry x="14" y="50" w="1645" h="751"></geometry>
+      <geometry x="9" y="25" w="1645" h="751"></geometry>
       <showMidiTracks>1</showMidiTracks>
       <showDrumTracks>1</showDrumTracks>
       <showNewDrumTracks>1</showNewDrumTracks>
@@ -1127,21 +1127,21 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <event type="2" datalen="2929">
           7c 05 01 01 c0 01 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8 
-          c8 c8 c8 c8 c8 c8 65 00 00 00 00 00 00 00 00 00 
+          c8 c8 c8 c8 c8 c8 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 08 00 08 00 08 00 08 
           00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 
-          00 08 00 08 00 08 00 08 46 00 00 00 00 00 00 00 
+          00 08 00 08 00 08 00 08 ff 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 3f 3f 3f 3f 3f 3f 
-          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f 65 40 40 40 40 40 
+          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f 0d 40 40 40 40 40 
           40 40 40 40 40 40 40 40 40 40 40 00 40 40 40 40 
-          40 40 40 40 40 40 40 40 40 40 40 40 28 00 00 00 
+          40 40 40 40 40 40 40 40 40 40 40 40 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 0e 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 00 61 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 64 01 08 08 08 08 08 08 08 08 08 08 08 08 
+          00 00 00 01 08 08 08 08 08 08 08 08 08 08 08 08 
           08 08 08 00 01 01 00 00 00 d2 b4 5a 00 96 00 ff 
           ff 1e 00 00 09 01 2f 61 70 70 2f 73 68 61 72 65 
           2f 6d 75 73 65 2d 34 2e 32 2f 70 72 65 73 65 74 
@@ -1159,7 +1159,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 6d 01 2f 61 70 70 2f 73 68 61 
+          00 00 00 00 00 00 07 01 2f 61 70 70 2f 73 68 61 
           72 65 2f 6d 75 73 65 2d 34 2e 32 2f 77 61 6c 6c 
           70 61 70 65 72 73 2f 70 61 70 65 72 32 2e 6a 70 
           67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1175,7 +1175,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 20 00 a0 03 66 72 65 65 
+          00 00 00 00 00 00 00 00 00 00 a0 03 66 72 65 65 
           76 65 72 62 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1191,7 +1191,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 70 66 72 65 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 66 72 65 
           65 76 65 72 62 31 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1240,7 +1240,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 3a 00 a0 00 00 c8 42 00 00 80 3f 00 00 00 
+          00 00 00 00 a0 00 00 c8 42 00 00 80 3f 00 00 00 
           3f c2 62 4a 40 00 00 40 3f 00 00 00 3f 00 00 00 
           00 00 00 00 00 00 00 40 3f c2 62 ca 3f 00 00 80 
           3e 00 00 80 3e 00 00 00 3f 00 00 80 3e 00 00 00 
@@ -1381,10 +1381,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 f9 
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
-          20 00 28 40 03 00 00 00 c0 92 bd 5c df 75 00 00 
-          92 00 00 00 07 00 00 00 c0 92 bd 5c df 75 00 00 
-          9a 00 00 00 01 00 00 00 c0 92 bd 5c df 75 00 00 
-          9c 00 00 00 04 00 00 00 c0 92 bd 5c df 
+          20 00 28 40 03 00 00 00 c7 ce 45 5e 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 ff ff ff ff 
+          01 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 ff 
           </event>
         </midistate>
       </SynthI>
@@ -1457,10 +1457,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 f9 
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
-          20 00 28 40 03 00 00 00 00 00 00 00 ff ff ff ff 
-          00 00 00 00 09 00 00 00 03 00 00 00 df 75 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 40 
-          05 00 00 00 04 00 00 00 05 00 00 00 04 
+          20 00 28 40 04 00 00 00 c0 92 5d 5f 47 78 00 00 
+          92 00 00 00 07 00 00 00 c0 92 5d 5f 47 78 00 00 
+          9a 00 00 00 01 00 00 00 c0 92 5d 5f 47 78 00 00 
+          9c 00 00 00 04 00 00 00 c0 92 5d 5f 47 
           </event>
         </midistate>
       </SynthI>
@@ -1513,8 +1513,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 00 00 
           00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f aa b4 
           c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 00 00 
-          40 9a 91 ff 56 5b 00 00 00 03 bd 01 0a 00 0d 00 
-          43 03 f3 01 0a 00 0b 00 7a 02 01 02 0a 00 12 
+          80 da 7c 67 ef 5f 00 00 69 00 63 00 3a 00 6e 00 
+          6f 00 72 00 6d 00 61 00 6c 00 00 00 ef 5f 00 
           </event>
         </midistate>
       </SynthI>
@@ -1566,9 +1566,9 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 
           00 00 00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f 
           aa b4 c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 
-          53 00 00 00 60 06 00 00 73 00 00 00 57 5b 00 00 
-          60 00 00 00 00 00 00 00 20 00 00 00 00 00 00 00 
-          00 1d 71 b5 05 00 00 00 50 77 b3 10 57 5b 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 21 00 00 00 00 00 00 00 
+          30 1b df 5e 47 78 00 00 30 1b df 5e 47 78 00 00 
           10 01 00 00 
           </event>
         </midistate>
@@ -1645,8 +1645,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 
           f9 28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 
           01 40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 
-          00 20 00 28 40 5b 00 00 00 00 00 00 00 00 00 00 
-          50 42 d6 11 57 5b 00 00 50 42 d6 11 57 5b 00 00 
+          00 20 00 28 40 5f 00 00 00 00 00 00 00 00 00 00 
+          f0 1e 53 77 ef 5f 00 00 f0 1e 53 77 ef 5f 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 70 
           </event>
@@ -1666,7 +1666,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <sendMetronome>1</sendMetronome>
       <automation>0</automation>
       <gain>1</gain>
-      <controller id="0" cur="0x1.430cd74f6d478p-1" color="#ff0000" visible="0">
+      <controller id="0" cur="0x1.afd1354c40d5p-2" color="#ff0000" visible="0">
         </controller>
       <controller id="1" cur="0" color="#ff0000" visible="0">
         </controller>
@@ -1683,6 +1683,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <height>93</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
+      <selected>1</selected>
+      <selectionOrder>0</selectionOrder>
       <device>2</device>
       <channel>0</channel>
       <locked>0</locked>
@@ -3737,6 +3739,9 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </part>
       <part>
         <name>Track 1</name>
+        <viewState xscroll="92610" yscroll="480" xscale="-4" yscale="2">
+          <ctrlViewState num="262146" />
+          </viewState>
         <poslen tick="88320" len="7680" />
         <selected>0</selected>
         <color>0</color>
@@ -3825,14 +3830,70 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <event tick="94848" len="96" a="55" b="121" />
         <event tick="95040" len="96" a="36" b="127" />
         <event tick="95040" len="96" a="38" b="127" />
-        <event tick="95232" len="96" a="56" b="121" />
-        <event tick="95232" len="96" a="55" b="121" />
-        <event tick="95424" len="96" a="56" b="121" />
-        <event tick="95424" len="96" a="55" b="121" />
-        <event tick="95616" len="96" a="36" b="127" />
-        <event tick="95616" len="96" a="38" b="127" />
-        <event tick="95808" len="96" a="56" b="121" />
-        <event tick="95808" len="96" a="55" b="121" />
+        <event tick="95232" len="48" a="38" b="127" />
+        <event tick="95232" len="48" a="36" b="127" />
+        <event tick="95232" len="48" a="55" b="121" />
+        <event tick="95232" len="48" a="56" b="121" />
+        <event tick="95280" len="48" a="43" b="127" />
+        <event tick="95280" len="48" a="41" b="127" />
+        <event tick="95280" len="48" a="60" b="121" />
+        <event tick="95280" len="48" a="61" b="121" />
+        <event tick="95328" len="48" a="60" b="121" />
+        <event tick="95328" len="48" a="61" b="121" />
+        <event tick="95328" len="48" a="43" b="127" />
+        <event tick="95328" len="48" a="41" b="127" />
+        <event tick="95376" len="48" a="60" b="121" />
+        <event tick="95376" len="48" a="61" b="121" />
+        <event tick="95376" len="48" a="43" b="127" />
+        <event tick="95376" len="48" a="41" b="127" />
+        <event tick="95424" len="48" a="55" b="121" />
+        <event tick="95424" len="48" a="56" b="121" />
+        <event tick="95424" len="48" a="38" b="127" />
+        <event tick="95424" len="48" a="36" b="127" />
+        <event tick="95472" len="48" a="63" b="121" />
+        <event tick="95472" len="48" a="64" b="121" />
+        <event tick="95472" len="48" a="46" b="127" />
+        <event tick="95472" len="48" a="44" b="127" />
+        <event tick="95520" len="48" a="63" b="121" />
+        <event tick="95520" len="48" a="64" b="121" />
+        <event tick="95520" len="48" a="46" b="127" />
+        <event tick="95520" len="48" a="44" b="127" />
+        <event tick="95568" len="48" a="63" b="121" />
+        <event tick="95568" len="48" a="64" b="121" />
+        <event tick="95568" len="48" a="46" b="127" />
+        <event tick="95568" len="48" a="44" b="127" />
+        <event tick="95616" len="48" a="55" b="121" />
+        <event tick="95616" len="48" a="56" b="121" />
+        <event tick="95616" len="48" a="38" b="127" />
+        <event tick="95616" len="48" a="36" b="127" />
+        <event tick="95664" len="48" a="61" b="121" />
+        <event tick="95664" len="48" a="62" b="121" />
+        <event tick="95664" len="48" a="44" b="127" />
+        <event tick="95664" len="48" a="42" b="127" />
+        <event tick="95712" len="48" a="61" b="121" />
+        <event tick="95712" len="48" a="62" b="121" />
+        <event tick="95712" len="48" a="44" b="127" />
+        <event tick="95712" len="48" a="42" b="127" />
+        <event tick="95760" len="48" a="61" b="121" />
+        <event tick="95760" len="48" a="62" b="121" />
+        <event tick="95760" len="48" a="44" b="127" />
+        <event tick="95760" len="48" a="42" b="127" />
+        <event tick="95808" len="48" a="55" b="121" />
+        <event tick="95808" len="48" a="56" b="121" />
+        <event tick="95808" len="48" a="38" b="127" />
+        <event tick="95808" len="48" a="36" b="127" />
+        <event tick="95856" len="48" a="55" b="121" />
+        <event tick="95856" len="48" a="56" b="121" />
+        <event tick="95856" len="48" a="38" b="127" />
+        <event tick="95856" len="48" a="36" b="127" />
+        <event tick="95904" len="48" a="55" b="121" />
+        <event tick="95904" len="48" a="56" b="121" />
+        <event tick="95904" len="48" a="38" b="127" />
+        <event tick="95904" len="48" a="36" b="127" />
+        <event tick="95952" len="48" a="55" b="121" />
+        <event tick="95952" len="48" a="56" b="121" />
+        <event tick="95952" len="48" a="38" b="127" />
+        <event tick="95952" len="48" a="36" b="127" />
         </part>
       <part>
         <name>Track 1</name>
@@ -5677,13 +5738,32 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </part>
       <part>
         <name>clawMidi</name>
+        <viewState xscroll="63359" yscroll="450" xscale="-3" yscale="2">
+          <ctrlViewState num="262144" />
+          </viewState>
         <poslen tick="63360" len="1920" />
         <selected>0</selected>
         <color>0</color>
         <event tick="63360" type="1" a="262145" b="65366" />
-        <event tick="63360" type="1" a="262144" />
         <event tick="63360" type="1" a="7" b="88" />
+        <event tick="63360" type="1" a="262144" b="-8093" />
+        <event tick="63360" len="384" a="52" b="127" />
+        <event tick="63384" type="1" a="262144" b="-7407" />
+        <event tick="63408" type="1" a="262144" b="-6916" />
+        <event tick="63432" type="1" a="262144" b="-6426" />
         <event tick="63456" type="1" a="7" b="88" />
+        <event tick="63456" type="1" a="262144" b="-5935" />
+        <event tick="63480" type="1" a="262144" b="-5347" />
+        <event tick="63504" type="1" a="262144" b="-4856" />
+        <event tick="63528" type="1" a="262144" b="-4366" />
+        <event tick="63552" type="1" a="262144" b="-3875" />
+        <event tick="63576" type="1" a="262144" b="-3385" />
+        <event tick="63600" type="1" a="262144" b="-2894" />
+        <event tick="63624" type="1" a="262144" b="-2403" />
+        <event tick="63648" type="1" a="262144" b="-1913" />
+        <event tick="63672" type="1" a="262144" b="-1422" />
+        <event tick="63696" type="1" a="262144" b="-932" />
+        <event tick="63720" type="1" a="262144" b="-147" />
         <event tick="63744" len="192" a="52" b="127" />
         <event tick="64032" len="192" a="52" b="127" />
         <event tick="64320" len="192" a="52" b="127" />
@@ -6486,8 +6566,6 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <height>136</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
-      <selected>1</selected>
-      <selectionOrder>0</selectionOrder>
       <device>6</device>
       <channel>0</channel>
       <locked>0</locked>
@@ -19359,7 +19437,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>96</raster>
         </midieditor>
-      <splitter>341 92 </splitter>
+      <splitter>378 55 </splitter>
       <hsplitter>77 551 </hsplitter>
       <ctrledit>
         <ctrlnum>262146</ctrlnum>
@@ -19374,6 +19452,64 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <xpos>11520</xpos>
       <ymag>2016</ymag>
       <ypos>780</ypos>
+      </pianoroll>
+    <part>7:28</part>
+    <pianoroll>
+      <midieditor>
+        <topwin>
+          <is_subwin>1</is_subwin>
+          <x>993</x>
+          <y>355</y>
+          <width>640</width>
+          <height>480</height>
+          <toolbars></toolbars>
+          </topwin>
+        <raster>48</raster>
+        </midieditor>
+      <splitter>341 92 </splitter>
+      <hsplitter>77 551 </hsplitter>
+      <ctrledit>
+        <ctrlnum>262146</ctrlnum>
+        <perNoteVeloMode>0</perNoteVeloMode>
+        </ctrledit>
+      <steprec>0</steprec>
+      <midiin>0</midiin>
+      <tool>1</tool>
+      <playEvents>1</playEvents>
+      <playEventsMode>0</playEventsMode>
+      <xmag>955</xmag>
+      <xpos>22080</xpos>
+      <ymag>2016</ymag>
+      <ypos>960</ypos>
+      </pianoroll>
+    <part>9:1</part>
+    <pianoroll>
+      <midieditor>
+        <topwin>
+          <is_subwin>1</is_subwin>
+          <x>0</x>
+          <y>355</y>
+          <width>640</width>
+          <height>480</height>
+          <toolbars></toolbars>
+          </topwin>
+        <raster>24</raster>
+        </midieditor>
+      <splitter>341 92 </splitter>
+      <hsplitter>77 551 </hsplitter>
+      <ctrledit>
+        <ctrlnum>262144</ctrlnum>
+        <perNoteVeloMode>0</perNoteVeloMode>
+        </ctrledit>
+      <steprec>0</steprec>
+      <midiin>0</midiin>
+      <tool>256</tool>
+      <playEvents>1</playEvents>
+      <playEventsMode>0</playEventsMode>
+      <xmag>1045</xmag>
+      <xpos>21120</xpos>
+      <ymag>2016</ymag>
+      <ypos>900</ypos>
       </pianoroll>
     </toplevels>
   </muse>
