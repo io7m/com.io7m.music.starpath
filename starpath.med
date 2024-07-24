@@ -19,14 +19,14 @@
     <extSync>0</extSync>
     <bigtimeVisible>0</bigtimeVisible>
     <transportVisible>0</transportVisible>
-    <geometryMain x="141" y="68" w="1740" h="982"></geometryMain>
+    <geometryMain x="104" y="48" w="1740" h="982"></geometryMain>
     <geometryTransport x="0" y="25" w="100" h="30"></geometryTransport>
     <markerVisible>0</markerVisible>
     <mixer1Visible>1</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
     <Mixer>
       <name>Mixer A</name>
-      <geometry x="2001" y="20" w="1350" h="939"></geometry>
+      <geometry x="1996" y="0" w="1355" h="959"></geometry>
       <showMidiTracks>1</showMidiTracks>
       <showDrumTracks>1</showDrumTracks>
       <showNewDrumTracks>1</showNewDrumTracks>
@@ -309,7 +309,7 @@
         <name>FluidSynth-2</name>
         <channel idx="0">
           <controller id="262144">
-            <val>-7475</val>
+            <val>-6144</val>
             </controller>
           <controller id="393239">
             <val>94</val>
@@ -328,7 +328,7 @@
         <name>fluidSoft</name>
         <channel idx="0">
           <controller id="7">
-            <val>57</val>
+            <val>70</val>
             </controller>
           <controller id="262144">
             <val>96</val>
@@ -347,7 +347,7 @@
             <val>88</val>
             </controller>
           <controller id="262144">
-            <val>-8093</val>
+            <val>0</val>
             </controller>
           <controller id="262145">
             <val>65366</val>
@@ -1052,7 +1052,7 @@
       <solo>0</solo>
       <off>0</off>
       <channels>2</channels>
-      <height>291</height>
+      <height>374</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
       <prefader>0</prefader>
@@ -1098,7 +1098,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <geometry x="2189" y="645" w="1251" h="402"></geometry>
         <nativeGeometry x="0" y="0" w="0" h="0"></nativeGeometry>
       </plugin>
-      <controller id="0" cur="0x1.6c310e3769f3ep-3" color="#ff0000" visible="0">
+      <controller id="0" cur="0x1.98a13577c93bfp-3" color="#ff0000" visible="0">
         </controller>
       <controller id="1" cur="0" color="#ffff00" visible="0">
         </controller>
@@ -1120,7 +1120,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </controller>
       <controller id="12288" cur="3" color="#d3892b" visible="0">
         </controller>
-      <controller id="20480" cur="0x1.1863d70a3d70ap+8" color="#ff0000" visible="1">
+      <controller id="20480" cur="0x1.1863d8p+8" color="#ff0000" visible="1">
         54000 0x1.1863d70a3d70ap+8 4,         72000 0x1.3eb8ac00fc3cp+5 4,         90000 0x1.1863d70a3d70ap+8 4,         180000 0x1.4932ccbac881ep+9 4,         
         234000 0x1.4932ccbac881ep+9 4,         252000 0x1.28d156e1b3c88p+6 4,         342000 0x1.8c8ed7d96ecf6p+10 4,         360000 0x1.62982cc2aa628p+7 4,         
         450000 0x1.e693585c0def5p+8 4,         540000 0x1.5e7551f4874p+2 4,         630000 0x1.62982cc2aa628p+7 4,         720000 0x1.62982cc2aa628p+7 4,         
@@ -1130,11 +1130,11 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         3042000 0x1.9f6e173b892cp+5,         3060000 0x1.b24657c2e97p+6,         3240000 0x1.b24657c2e97p+6,         3330000 0x1.5d1e577ad8452p+8,         
         3420000 0x1.28d156e1b3c64p+6,         3510000 0x1.26d58c827b172p+9,         3600000 0x1.5e7551f48728p+2,         3780000 0x1.5e7551f48728p+2,         
         4050000 0x1.5e7551f48728p+2,         4140000 0x1.36a5b74cad454p+10,         4158000 0x1.28d156e1b3c6cp+6,         4680000 0x1.28d156e1b3c6cp+6,         
-        4770000 0x1.28d156e1b3c6cp+6,         4788000 0x1.a654c803a8df3p+10,         4842000 0x1.a654c803a8df3p+10,         4860000 0x1.28d156e1b3c7p+6,         
-        5130000 0x1.28d156e1b3c7p+6,         5202000 0x1.026a9c4f3ee2p+11,         5220000 0x1.3eb8ac00fc3ep+5,         5400000 0x1.3eb8ac00fc3ep+5,         
-        5580000 0x1.506ba776e7554p+10,         5940000 0x1.506ba776e7554p+10,         5994000 0x1.12ea01c26b539p+6,         6390000 0x1.12ea01c26b539p+6,         
-        6480000 0x1.e11983143bd24p+7,         6750000 0x1.12ea01c26b539p+8,         6840000 0x1.12ea01c26b539p+8,         6930000 0x1.f248233062876p+9,         
-        7056000 0x1.f248233062876p+9,         
+        4765500 0x1.5a8b7a969039p+6 4,         4770000 0x1.ae394e513e93fp+9,         4828500 0x1.ae394e513e93fp+9 1,         4846500 0x1.b62bf6d6bca2p+9 4,         
+        4860000 0x1.7bbb520a97782p+5 4,         5130000 0x1.28d156e1b3c7p+6,         5202000 0x1.026a9c4f3ee2p+11,         5220000 0x1.3eb8ac00fc3ep+5,         
+        5400000 0x1.3eb8ac00fc3ep+5,         5580000 0x1.506ba776e7554p+10,         5940000 0x1.506ba776e7554p+10,         5994000 0x1.12ea01c26b539p+6,         
+        6390000 0x1.12ea01c26b539p+6,         6480000 0x1.e11983143bd24p+7,         6750000 0x1.12ea01c26b539p+8,         6840000 0x1.12ea01c26b539p+8,         
+        6930000 0x1.f248233062876p+9,         7056000 0x1.f248233062876p+9,         
         </controller>
       <controller id="20481" cur="0" color="#a62458" visible="0">
         </controller>
@@ -1164,19 +1164,19 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c8 c8 c8 c8 c8 c8 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 08 00 08 00 08 00 08 
           00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 
-          00 08 00 08 00 08 00 08 40 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 94 3f 3f 3f 3f 3f 3f 
-          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f af 40 40 40 40 40 
-          40 40 40 40 40 40 40 40 40 40 40 87 40 40 40 40 
-          40 40 40 40 40 40 40 40 40 40 40 40 6c 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 5d 00 00 
+          00 08 00 08 00 08 00 08 ff 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 3f 3f 3f 3f 3f 3f 
+          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f b0 40 40 40 40 40 
+          40 40 40 40 40 40 40 40 40 40 40 00 40 40 40 40 
+          40 40 40 40 40 40 40 40 40 40 40 40 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 0e 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 e4 08 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 b4 01 08 08 08 08 08 08 08 08 08 08 08 08 
-          08 08 08 87 01 01 00 00 00 d2 b4 5a 00 96 00 ff 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 00 01 08 08 08 08 08 08 08 08 08 08 08 08 
+          08 08 08 00 01 01 00 00 00 d2 b4 5a 00 96 00 ff 
           ff 1e 00 00 09 01 2f 61 70 70 2f 73 68 61 72 65 
           2f 6d 75 73 65 2d 34 2e 32 2f 70 72 65 73 65 74 
           73 2f 64 65 69 63 73 6f 6e 7a 65 2f 53 75 74 75 
@@ -1193,7 +1193,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 01 2f 61 70 70 2f 73 68 61 
+          00 00 00 00 00 00 07 01 2f 61 70 70 2f 73 68 61 
           72 65 2f 6d 75 73 65 2d 34 2e 32 2f 77 61 6c 6c 
           70 61 70 65 72 73 2f 70 61 70 65 72 32 2e 6a 70 
           67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1209,7 +1209,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 80 00 a0 03 66 72 65 65 
+          00 00 00 00 00 00 00 00 00 00 a0 03 66 72 65 65 
           76 65 72 62 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1258,7 +1258,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 60 64 6f 75 62 6c 65 63 68 6f 72 75 73 31 00 
+          00 00 64 6f 75 62 6c 65 63 68 6f 72 75 73 31 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1414,10 +1414,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 f9 
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
-          20 00 28 40 00 00 00 00 20 5d a6 9a 6c 5d 00 00 
-          09 00 00 00 00 00 00 00 90 e8 a4 9a 6c 5d 00 00 
-          08 00 00 00 00 00 00 00 e0 24 a6 9a 6c 5d 00 00 
-          0b 00 00 00 05 00 1c 00 60 68 a6 9a 6c 
+          20 00 28 40 03 00 00 00 00 00 00 00 ff ff ff ff 
+          00 00 00 00 09 00 00 00 03 00 00 00 bb 63 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 40 
+          05 00 00 00 04 00 00 00 05 00 00 00 04 
           </event>
         </midistate>
       </SynthI>
@@ -1491,7 +1491,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
           20 00 28 40 03 00 00 00 00 00 00 00 ff ff ff ff 
-          00 00 00 00 09 00 00 00 03 00 00 00 ff ff ff ff 
+          00 00 00 00 09 00 00 00 03 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 40 
           05 00 00 00 04 00 00 00 05 00 00 00 04 
           </event>
@@ -1545,9 +1545,9 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           ae 47 21 40 00 00 00 00 00 00 c0 3f 00 00 00 00 
           00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 00 00 
           00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f aa b4 
-          c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 00 00 
-          61 00 00 00 93 00 00 00 65 00 00 00 87 00 00 00 
-          68 00 00 00 81 00 00 00 6b 00 00 00 7c 00 00 
+          c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 0d 00 
+          1d 03 a3 03 13 00 1c 00 8c 06 c6 03 3c 00 01 00 
+          49 06 c7 03 40 00 0c 00 8c 06 c7 03 3c 00 0c 
           </event>
         </midistate>
       </SynthI>
@@ -1599,10 +1599,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 
           00 00 00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f 
           aa b4 c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 21 00 00 00 00 00 00 00 
-          30 1b df d3 29 7d 00 00 30 1b df d3 29 7d 00 00 
-          10 01 00 00 
+          20 ce 95 aa bb 63 00 00 00 00 00 00 00 00 00 00 
+          d0 c7 52 a8 bb 63 00 00 20 25 ed 82 dd 7a 00 00 
+          40 e2 b4 99 bb 63 00 00 90 0e 28 98 bb 63 00 00 
+          90 0e 28 98 
           </event>
         </midistate>
       </SynthI>
@@ -1678,8 +1678,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 
           f9 28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 
           01 40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 
-          00 20 00 28 40 5d 00 00 00 00 00 00 00 00 00 00 
-          60 85 5b 98 6c 5d 00 00 60 85 5b 98 6c 5d 00 00 
+          00 20 00 28 40 63 00 00 00 00 00 00 00 00 00 00 
+          80 4b 96 a8 bb 63 00 00 80 4b 96 a8 bb 63 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 70 
           </event>
@@ -24372,14 +24372,14 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <wsActive>1</wsActive>
         <toolbars></toolbars>
         </topwin>
-      <tool>1</tool>
+      <tool>1024</tool>
       <arranger>
-        <raster>384</raster>
+        <raster>96</raster>
         <info>1</info>
         <split>85 542 1105 </split>
-        <xmag>136</xmag>
+        <xmag>409</xmag>
         <xpos>0</xpos>
-        <ypos>180</ypos>
+        <ypos>240</ypos>
         </arranger>
       </arrangerview>
     <part>10:26</part>
@@ -24628,7 +24628,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>96</raster>
         </midieditor>
-      <splitter>382 51 </splitter>
+      <splitter>383 50 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>393265</ctrlnum>
@@ -24657,7 +24657,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>48</raster>
         </midieditor>
-      <splitter>382 51 </splitter>
+      <splitter>383 50 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>262144</ctrlnum>
@@ -24686,7 +24686,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>24</raster>
         </midieditor>
-      <splitter>382 51 </splitter>
+      <splitter>383 50 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>262144</ctrlnum>
