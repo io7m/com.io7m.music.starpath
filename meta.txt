@@ -1,0 +1,5 @@
+IO7M_VERSION=0.0.3
+IO7M_ID=com.io7m.music.starpath
+DATE=2024
+ARTIST=Mark Raynsford
+TITLE=Star Path
