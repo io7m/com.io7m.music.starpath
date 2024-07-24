@@ -19,14 +19,14 @@
     <extSync>0</extSync>
     <bigtimeVisible>0</bigtimeVisible>
     <transportVisible>0</transportVisible>
-    <geometryMain x="131" y="44" w="1740" h="982"></geometryMain>
+    <geometryMain x="141" y="68" w="1740" h="982"></geometryMain>
     <geometryTransport x="0" y="25" w="100" h="30"></geometryTransport>
     <markerVisible>0</markerVisible>
     <mixer1Visible>1</mixer1Visible>
     <mixer2Visible>0</mixer2Visible>
     <Mixer>
       <name>Mixer A</name>
-      <geometry x="1920" y="55" w="1350" h="679"></geometry>
+      <geometry x="2001" y="20" w="1350" h="939"></geometry>
       <showMidiTracks>1</showMidiTracks>
       <showDrumTracks>1</showDrumTracks>
       <showNewDrumTracks>1</showNewDrumTracks>
@@ -331,7 +331,7 @@
             <val>57</val>
             </controller>
           <controller id="262144">
-            <val>6640</val>
+            <val>96</val>
             </controller>
           <controller id="262145">
             <val>16776962</val>
@@ -1052,14 +1052,12 @@
       <solo>0</solo>
       <off>0</off>
       <channels>2</channels>
-      <height>20</height>
+      <height>291</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
-      <selected>1</selected>
-      <selectionOrder>1</selectionOrder>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
-      <automation>0</automation>
+      <automation>1</automation>
       <gain>1</gain>
       <plugin file="filter" label="hpf" channel="2">
         <control name="Cutoff Frequency (Hz)" val="0x1.0a129p+8" />
@@ -1085,17 +1083,22 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <geometry x="71" y="203" w="395" h="159"></geometry>
         <nativeGeometry x="0" y="0" w="0" h="0"></nativeGeometry>
       </plugin>
-      <plugin uri="http://plugin.org.uk/swh-plugins/plate" label="Plate reverb LV2" channel="2">
+      <plugin uri="http://moddevices.com/plugins/tap/reverb" label="TAP Reverberator LV2" channel="2">
         <customData>
 AAAABHicY2BgYAAAAAQAAQ==</customData>
-        <control name="Reverb time" val="0x1.828f5cp+0" />
-        <control name="Damping" val="0x1.ae147ap-3" />
-        <control name="Dry/wet mix" val="0.5" />
+        <control name="Decay" val="0x1.1863d8p+8" />
+        <control name="Dry Level" val="0" />
+        <control name="Wet Level" val="0" />
+        <control name="Comb Filters" val="1" />
+        <control name="Allpass Filters" val="1" />
+        <control name="Bandpass Filter" val="1" />
+        <control name="Enhanced Stereo" val="1" />
+        <control name="Reverb Type" val="17" />
         <gui>1</gui>
-        <geometry x="1991" y="842" w="324" h="164"></geometry>
+        <geometry x="2189" y="645" w="1251" h="402"></geometry>
         <nativeGeometry x="0" y="0" w="0" h="0"></nativeGeometry>
       </plugin>
-      <controller id="0" cur="0x1.96b230bcdc434p-1" color="#ff0000" visible="0">
+      <controller id="0" cur="0x1.6c310e3769f3ep-3" color="#ff0000" visible="0">
         </controller>
       <controller id="1" cur="0" color="#ffff00" visible="0">
         </controller>
@@ -1117,11 +1120,35 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </controller>
       <controller id="12288" cur="3" color="#d3892b" visible="0">
         </controller>
-      <controller id="16384" cur="0x1.828f5cp+0" color="#d3892b" visible="0">
+      <controller id="20480" cur="0x1.1863d70a3d70ap+8" color="#ff0000" visible="1">
+        54000 0x1.1863d70a3d70ap+8 4,         72000 0x1.3eb8ac00fc3cp+5 4,         90000 0x1.1863d70a3d70ap+8 4,         180000 0x1.4932ccbac881ep+9 4,         
+        234000 0x1.4932ccbac881ep+9 4,         252000 0x1.28d156e1b3c88p+6 4,         342000 0x1.8c8ed7d96ecf6p+10 4,         360000 0x1.62982cc2aa628p+7 4,         
+        450000 0x1.e693585c0def5p+8 4,         540000 0x1.5e7551f4874p+2 4,         630000 0x1.62982cc2aa628p+7 4,         720000 0x1.62982cc2aa628p+7 4,         
+        1350000 0x1.8ded4d2b6356bp+9 4,         1440000 0x1.1dddac520f8dcp+7 4,         1800000 0x1.8ded4d2b6356ap+9 4,         1836000 0x1.1863d70a3d70ap+8 4,         
+        1890000 0x1.ec0d2da3e00cp+7 4,         2250000 0x1.ec0d2da3e00cp+7 4,         2520000 0x1.ec0d2da3e00c4p+7,         2610000 0x1.506ba776e7551p+10,         
+        2700000 0x1.62982cc2aa62p+7,         2970000 0x1.62982cc2aa62p+7,         2988000 0x1.11bc7db9f54f6p+10,         3006000 0x1.5653be89bc26ep+8,         
+        3042000 0x1.9f6e173b892cp+5,         3060000 0x1.b24657c2e97p+6,         3240000 0x1.b24657c2e97p+6,         3330000 0x1.5d1e577ad8452p+8,         
+        3420000 0x1.28d156e1b3c64p+6,         3510000 0x1.26d58c827b172p+9,         3600000 0x1.5e7551f48728p+2,         3780000 0x1.5e7551f48728p+2,         
+        4050000 0x1.5e7551f48728p+2,         4140000 0x1.36a5b74cad454p+10,         4158000 0x1.28d156e1b3c6cp+6,         4680000 0x1.28d156e1b3c6cp+6,         
+        4770000 0x1.28d156e1b3c6cp+6,         4788000 0x1.a654c803a8df3p+10,         4842000 0x1.a654c803a8df3p+10,         4860000 0x1.28d156e1b3c7p+6,         
+        5130000 0x1.28d156e1b3c7p+6,         5202000 0x1.026a9c4f3ee2p+11,         5220000 0x1.3eb8ac00fc3ep+5,         5400000 0x1.3eb8ac00fc3ep+5,         
+        5580000 0x1.506ba776e7554p+10,         5940000 0x1.506ba776e7554p+10,         5994000 0x1.12ea01c26b539p+6,         6390000 0x1.12ea01c26b539p+6,         
+        6480000 0x1.e11983143bd24p+7,         6750000 0x1.12ea01c26b539p+8,         6840000 0x1.12ea01c26b539p+8,         6930000 0x1.f248233062876p+9,         
+        7056000 0x1.f248233062876p+9,         
         </controller>
-      <controller id="16385" cur="0x1.ae147ap-3" color="#a62458" visible="0">
+      <controller id="20481" cur="0" color="#a62458" visible="0">
         </controller>
-      <controller id="16386" cur="0.5" color="#79d189" visible="0">
+      <controller id="20482" cur="0" color="#79d189" visible="0">
+        </controller>
+      <controller id="20483" cur="1" color="#4c90c0" visible="0">
+        </controller>
+      <controller id="20484" cur="1" color="#1f61ff" visible="0">
+        </controller>
+      <controller id="20485" cur="1" color="#f24448" visible="0">
+        </controller>
+      <controller id="20486" cur="1" color="#c5399d" visible="0">
+        </controller>
+      <controller id="20487" cur="17" color="#984000" visible="0">
         </controller>
       <synthType>MESS</synthType>
       <class>deicsonze</class>
@@ -1134,22 +1161,22 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <event type="2" datalen="2928">
           7c 05 01 01 c0 01 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8 
-          c8 c8 c8 c8 c8 c8 65 00 00 00 00 00 00 00 00 00 
+          c8 c8 c8 c8 c8 c8 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 08 00 08 00 08 00 08 
           00 08 00 08 00 08 00 08 00 08 00 08 00 08 00 08 
-          00 08 00 08 00 08 00 08 46 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 3f 3f 3f 3f 3f 3f 
-          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f 65 40 40 40 40 40 
-          40 40 40 40 40 40 40 40 40 40 40 00 40 40 40 40 
-          40 40 40 40 40 40 40 40 40 40 40 40 28 00 00 00 
+          00 08 00 08 00 08 00 08 40 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 94 3f 3f 3f 3f 3f 3f 
+          3f 3f 3f 3f 3f 3f 3f 3f 3f 3f af 40 40 40 40 40 
+          40 40 40 40 40 40 40 40 40 40 40 87 40 40 40 40 
+          40 40 40 40 40 40 40 40 40 40 40 40 6c 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 5d 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 00 61 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 08 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 64 01 08 08 08 08 08 08 08 08 08 08 08 08 
-          08 08 08 00 01 01 00 00 00 d2 b4 5a 00 96 00 ff 
+          10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 e4 08 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 b4 01 08 08 08 08 08 08 08 08 08 08 08 08 
+          08 08 08 87 01 01 00 00 00 d2 b4 5a 00 96 00 ff 
           ff 1e 00 00 09 01 2f 61 70 70 2f 73 68 61 72 65 
           2f 6d 75 73 65 2d 34 2e 32 2f 70 72 65 73 65 74 
           73 2f 64 65 69 63 73 6f 6e 7a 65 2f 53 75 74 75 
@@ -1166,7 +1193,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 6d 01 2f 61 70 70 2f 73 68 61 
+          00 00 00 00 00 00 00 01 2f 61 70 70 2f 73 68 61 
           72 65 2f 6d 75 73 65 2d 34 2e 32 2f 77 61 6c 6c 
           70 61 70 65 72 73 2f 70 61 70 65 72 32 2e 6a 70 
           67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1182,7 +1209,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 20 00 a0 03 66 72 65 65 
+          00 00 00 00 00 00 00 00 80 00 a0 03 66 72 65 65 
           76 65 72 62 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1198,7 +1225,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 00 00 00 00 00 00 00 00 00 00 70 66 72 65 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 66 72 65 
           65 76 65 72 62 31 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1231,7 +1258,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 64 6f 75 62 6c 65 63 68 6f 72 75 73 31 00 
+          00 60 64 6f 75 62 6c 65 63 68 6f 72 75 73 31 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
@@ -1247,7 +1274,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-          00 00 3a 00 a0 00 00 c8 42 00 00 80 3f 00 00 00 
+          00 00 00 00 a0 00 00 c8 42 00 00 80 3f 00 00 00 
           3f c2 62 4a 40 00 00 40 3f 00 00 00 3f 00 00 00 
           00 00 00 00 00 00 00 40 3f c2 62 ca 3f 00 00 80 
           3e 00 00 80 3e 00 00 00 3f 00 00 80 3e 00 00 00 
@@ -1387,10 +1414,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 f9 
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
-          20 00 28 40 1a 00 00 00 00 00 00 00 1a 00 00 00 
-          ff ff 07 00 1a 00 00 00 00 00 00 00 00 00 01 00 
-          d8 00 00 00 1a 00 00 00 00 00 00 00 00 00 00 00 
-          ff ff ff 00 00 00 00 00 00 00 00 00 01 
+          20 00 28 40 00 00 00 00 20 5d a6 9a 6c 5d 00 00 
+          09 00 00 00 00 00 00 00 90 e8 a4 9a 6c 5d 00 00 
+          08 00 00 00 00 00 00 00 e0 24 a6 9a 6c 5d 00 00 
+          0b 00 00 00 05 00 1c 00 60 68 a6 9a 6c 
           </event>
         </midistate>
       </SynthI>
@@ -1463,10 +1490,10 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           c0 3f 00 00 00 00 00 33 d3 3f fa 18 9c 8f c1 f9 
           28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 01 
           40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 00 
-          20 00 28 40 42 00 3a 00 20 00 53 00 65 00 6c 00 
-          65 00 63 00 74 00 20 00 74 00 72 00 61 00 63 00 
-          6b 00 20 00 7c 00 20 00 4d 00 4d 00 42 00 3a 00 
-          20 00 44 00 65 00 6c 00 65 00 74 00 65 
+          20 00 28 40 03 00 00 00 00 00 00 00 ff ff ff ff 
+          00 00 00 00 09 00 00 00 03 00 00 00 ff ff ff ff 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 50 40 
+          05 00 00 00 04 00 00 00 05 00 00 00 04 
           </event>
         </midistate>
       </SynthI>
@@ -1519,8 +1546,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 00 00 
           00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f aa b4 
           c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 00 00 
-          40 7a 6a f8 12 5d 00 00 00 00 00 00 96 05 00 00 
-          45 00 00 00 7b 05 00 00 2a 00 00 00 52 05 00 
+          61 00 00 00 93 00 00 00 65 00 00 00 87 00 00 00 
+          68 00 00 00 81 00 00 00 6b 00 00 00 7c 00 00 
           </event>
         </midistate>
       </SynthI>
@@ -1572,9 +1599,9 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           00 00 00 33 d3 3f fa 18 9c 8f c1 f9 28 40 00 00 
           00 00 00 00 d0 3f 03 00 00 04 00 01 40 00 e0 3f 
           aa b4 c4 8e 39 a3 03 40 00 02 80 00 20 00 28 40 
-          00 00 00 00 00 00 00 00 00 00 00 00 00 c0 6a 40 
-          00 00 00 00 00 20 6c 40 00 00 00 00 00 d8 92 40 
-          00 00 00 00 00 00 92 40 00 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+          00 00 00 00 00 00 00 00 21 00 00 00 00 00 00 00 
+          30 1b df d3 29 7d 00 00 30 1b df d3 29 7d 00 00 
           10 01 00 00 
           </event>
         </midistate>
@@ -1652,7 +1679,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           f9 28 40 00 00 00 00 00 00 d0 3f 03 00 00 04 00 
           01 40 00 e0 3f aa b4 c4 8e 39 a3 03 40 00 02 80 
           00 20 00 28 40 5d 00 00 00 00 00 00 00 00 00 00 
-          90 1c 6a 08 13 5d 00 00 90 1c 6a 08 13 5d 00 00 
+          60 85 5b 98 6c 5d 00 00 60 85 5b 98 6c 5d 00 00 
           00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
           00 00 00 00 00 00 00 00 70 
           </event>
@@ -7606,12 +7633,13 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <clef>0</clef>
       <part>
         <name>soft</name>
-        <viewState xscroll="-3" yscroll="450" xscale="-6" yscale="2">
-          <ctrlViewState num="262146" />
+        <viewState xscroll="711" yscroll="450" xscale="-6" yscale="2">
+          <ctrlViewState num="262144" />
           </viewState>
         <poslen tick="0" len="7680" />
         <selected>0</selected>
         <color>0</color>
+        <event tick="0" type="1" a="262144" b="96" />
         <event tick="0" len="48" a="42" b="70" />
         <event tick="96" len="48" a="43" b="70" />
         <event tick="192" len="48" a="43" b="70" />
@@ -7689,11 +7717,27 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <event tick="7008" len="48" a="38" b="70" />
         <event tick="7104" len="48" a="38" b="70" />
         <event tick="7200" len="48" a="38" b="70" />
-        <event tick="7296" len="384" a="47" b="70" />
+        <event tick="7296" type="1" a="262144" b="-7806" />
         <event tick="7296" len="48" a="37" b="70" />
+        <event tick="7296" len="384" a="49" b="70" />
+        <event tick="7320" type="1" a="262144" b="-6457" />
+        <event tick="7344" type="1" a="262144" b="-5300" />
+        <event tick="7368" type="1" a="262144" b="-4337" />
+        <event tick="7392" type="1" a="262144" b="-3373" />
         <event tick="7392" len="48" a="38" b="70" />
+        <event tick="7416" type="1" a="262144" b="-2409" />
+        <event tick="7440" type="1" a="262144" b="-1253" />
+        <event tick="7464" type="1" a="262144" b="-289" />
+        <event tick="7488" type="1" a="262144" b="675" />
         <event tick="7488" len="48" a="38" b="70" />
+        <event tick="7512" type="1" a="262144" b="1831" />
+        <event tick="7536" type="1" a="262144" b="2795" />
+        <event tick="7560" type="1" a="262144" b="3758" />
+        <event tick="7584" type="1" a="262144" b="4722" />
         <event tick="7584" len="48" a="38" b="70" />
+        <event tick="7608" type="1" a="262144" b="5879" />
+        <event tick="7632" type="1" a="262144" b="6842" />
+        <event tick="7656" type="1" a="262144" b="8191" />
         </part>
       <part>
         <name>soft</name>
@@ -10310,7 +10354,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <event tick="7296" type="1" a="393252" b="99" />
         <event tick="7296" type="1" a="262144" b="-6246" />
         <event tick="7296" type="1" a="393265" b="80" />
-        <event tick="7296" len="384" a="18" b="70" />
+        <event tick="7296" len="384" a="30" b="70" />
         <event tick="7392" type="1" a="393252" b="99" />
         <event tick="7392" type="1" a="262144" b="-3993" />
         <event tick="7488" type="1" a="393252" b="99" />
@@ -23198,6 +23242,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <height>56</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
+      <selected>1</selected>
+      <selectionOrder>0</selectionOrder>
       <prefader>0</prefader>
       <sendMetronome>0</sendMetronome>
       <automation>0</automation>
@@ -23355,7 +23401,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <mute>0</mute>
       <solo>0</solo>
       <off>0</off>
-      <channels>1</channels>
+      <channels>2</channels>
       <height>56</height>
       <locked>0</locked>
       <recMonitor>0</recMonitor>
@@ -23369,20 +23415,6 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </controller>
       <controller id="2" cur="0" color="#0000ff" visible="0">
         </controller>
-      <part>
-        <name>fmyOut</name>
-        <poslen sample="1818000" len="72000" />
-        <selected>0</selected>
-        <color>0</color>
-        <event>
-          <poslen sample="1818000" len="234560" />
-          <frame>216000</frame>
-          <file>fmy/fmyOut.wav</file>
-          <stretchlist>
-            0 1 1 1 7,             
-            </stretchlist>
-          </event>
-        </part>
       <part>
         <name>fmyOut</name>
         <poslen sample="6930000" len="180000" />
@@ -24347,7 +24379,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <split>85 542 1105 </split>
         <xmag>136</xmag>
         <xpos>0</xpos>
-        <ypos>0</ypos>
+        <ypos>180</ypos>
         </arranger>
       </arrangerview>
     <part>10:26</part>
@@ -24384,8 +24416,8 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <midieditor>
         <topwin>
           <is_subwin>1</is_subwin>
-          <x>993</x>
-          <y>355</y>
+          <x>1100</x>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
@@ -24414,7 +24446,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <topwin>
           <is_subwin>1</is_subwin>
           <x>0</x>
-          <y>355</y>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
@@ -24442,7 +24474,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <midieditor>
         <topwin>
           <is_subwin>1</is_subwin>
-          <x>993</x>
+          <x>1100</x>
           <y>0</y>
           <width>640</width>
           <height>480</height>
@@ -24473,7 +24505,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <topwin>
           <is_subwin>1</is_subwin>
           <x>640</x>
-          <y>355</y>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
@@ -24531,7 +24563,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         <topwin>
           <is_subwin>1</is_subwin>
           <x>0</x>
-          <y>355</y>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
@@ -24567,7 +24599,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>96</raster>
         </midieditor>
-      <splitter>378 55 </splitter>
+      <splitter>383 50 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>262144</ctrlnum>
@@ -24588,15 +24620,15 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <midieditor>
         <topwin>
           <is_subwin>1</is_subwin>
-          <x>993</x>
-          <y>355</y>
+          <x>1100</x>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
           </topwin>
         <raster>96</raster>
         </midieditor>
-      <splitter>341 92 </splitter>
+      <splitter>382 51 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>393265</ctrlnum>
@@ -24604,7 +24636,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
         </ctrledit>
       <steprec>0</steprec>
       <midiin>0</midiin>
-      <tool>2</tool>
+      <tool>1</tool>
       <playEvents>1</playEvents>
       <playEventsMode>0</playEventsMode>
       <xmag>455</xmag>
@@ -24617,7 +24649,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <midieditor>
         <topwin>
           <is_subwin>1</is_subwin>
-          <x>0</x>
+          <x>1100</x>
           <y>0</y>
           <width>640</width>
           <height>480</height>
@@ -24625,7 +24657,7 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
           </topwin>
         <raster>48</raster>
         </midieditor>
-      <splitter>341 92 </splitter>
+      <splitter>382 51 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
         <ctrlnum>262144</ctrlnum>
@@ -24646,23 +24678,23 @@ AAAABHicY2BgYAAAAAQAAQ==</customData>
       <midieditor>
         <topwin>
           <is_subwin>1</is_subwin>
-          <x>993</x>
-          <y>0</y>
+          <x>640</x>
+          <y>298</y>
           <width>640</width>
           <height>480</height>
           <toolbars></toolbars>
           </topwin>
-        <raster>48</raster>
+        <raster>24</raster>
         </midieditor>
-      <splitter>341 92 </splitter>
+      <splitter>382 51 </splitter>
       <hsplitter>70 558 </hsplitter>
       <ctrledit>
-        <ctrlnum>262146</ctrlnum>
+        <ctrlnum>262144</ctrlnum>
         <perNoteVeloMode>0</perNoteVeloMode>
         </ctrledit>
       <steprec>0</steprec>
       <midiin>0</midiin>
-      <tool>1</tool>
+      <tool>256</tool>
       <playEvents>1</playEvents>
       <playEventsMode>0</playEventsMode>
       <xmag>682</xmag>
